@@ -16,7 +16,8 @@ CLASS zcl_test_poc IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-  if 1 = 2.
+  if 1 = 3.
+  "Ranga
   endif.
   ENDMETHOD.
 ENDCLASS.
