@@ -19,5 +19,6 @@ CLASS zcl_test_poc IMPLEMENTATION.
   if 1 = 3.
   "Ranga
   endif.
+  out->write( 'Ranga' ).
   ENDMETHOD.
 ENDCLASS.
